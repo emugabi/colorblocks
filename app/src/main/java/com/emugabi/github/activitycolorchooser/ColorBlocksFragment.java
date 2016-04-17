@@ -11,7 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.asck.uwezoteens.R;
+import comemugabi.github.activitycolorblocks.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
