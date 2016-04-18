@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import comemugabi.github.activitycolorblocks.R;
+import com.emugabi.github.activitycolorblocks.R;
 
 
 /**
@@ -26,11 +26,10 @@ public class ColorBlocksFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "colors";
+    private static String TAG = ColorBlocksFragment.class.getSimpleName();
     // TODO: Rename and change types of parameters
     private int[] colorsParam = {};
-
     private onColorFragmentListener mListener;
-    private static String TAG = ColorBlocksFragment.class.getSimpleName();
 
     public ColorBlocksFragment() {
         // Required empty public constructor
@@ -136,16 +135,7 @@ public class ColorBlocksFragment extends Fragment {
         mListener = null;
     }
 
-    /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     * <p/>
-     * See the Android Training lesson <a href=
-     * "http://developer.android.com/training/basics/fragments/communicating.html"
-     * >Communicating with Other Fragments</a> for more information.
-     */
+
     public interface onColorFragmentListener {
         // TODO: Update argument type and name
         void onColorSelected(int colorPosition);

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.ColorBlocksFragment">
+    tools:context=".ColorBlocksFragment">
 
     <RelativeLayout
         android:id="@+id/note_color_label"
@@ -48,58 +48,58 @@
         app:rowCount="4">
 
         <Button
+            android:background="@color/orange_1"
             app:layout_columnSpan="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            android:background="@color/orange_1"/>
+            app:layout_rowWeight="1" />
 
         <Button
+            android:background="@color/orange_2"
             app:layout_columnSpan="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            android:background="@color/orange_2"/>
+            app:layout_rowWeight="1" />
 
         <Button
+            android:background="@color/orange_3"
             app:layout_columnSpan="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            android:background="@color/orange_3"/>
+            app:layout_rowWeight="1" />
 
         <Button
+            android:background="@color/green_1"
             app:layout_columnSpan="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            android:background="@color/green_1"/>
+            app:layout_rowWeight="1" />
 
         <Button
+            android:background="@color/green_2"
             app:layout_columnSpan="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            android:background="@color/green_2"/>
+            app:layout_rowWeight="1" />
 
         <Button
+            android:background="@color/green_3"
             app:layout_columnSpan="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            android:background="@color/green_3"/>
+            app:layout_rowWeight="1" />
 
         <Button
+            android:background="@color/blue_1"
             app:layout_columnSpan="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            android:background="@color/blue_1"/>
+            app:layout_rowWeight="1" />
 
         <Button
+            android:background="@color/blue_2"
             app:layout_columnSpan="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            android:background="@color/blue_2"/>
+            app:layout_rowWeight="1" />
 
         <Button
+            android:background="@color/blue_3"
             app:layout_columnSpan="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            android:background="@color/blue_3"/>
+            app:layout_rowWeight="1" />
 
     </android.support.v7.widget.GridLayout>
 </RelativeLayout>
