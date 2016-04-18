@@ -17,21 +17,21 @@ import com.emugabi.github.activitycolorblocks.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link ColorBlocksFragment.onColorFragmentListener} interface
+ * {@link ColorPickerFragment.onColorFragmentListener} interface
  * to handle interaction events.
- * Use the {@link ColorBlocksFragment#newInstance} factory method to
+ * Use the {@link ColorPickerFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ColorBlocksFragment extends Fragment {
+public class ColorPickerFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "colors";
-    private static String TAG = ColorBlocksFragment.class.getSimpleName();
+    private static String TAG = ColorPickerFragment.class.getSimpleName();
     // TODO: Rename and change types of parameters
     private int[] colorsParam = {};
     private onColorFragmentListener mListener;
 
-    public ColorBlocksFragment() {
+    public ColorPickerFragment() {
         // Required empty public constructor
     }
 
@@ -43,8 +43,8 @@ public class ColorBlocksFragment extends Fragment {
      * @return A new instance of fragment ColorBlocksFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ColorBlocksFragment newInstance(int[] colorsParam) {
-        ColorBlocksFragment fragment = new ColorBlocksFragment();
+    public static ColorPickerFragment newInstance(int[] colorsParam) {
+        ColorPickerFragment fragment = new ColorPickerFragment();
         Bundle args = new Bundle();
         args.putIntArray(ARG_PARAM1, colorsParam);
         Log.d(TAG, "newInstance: color parameter has " + colorsParam.length + " colors");

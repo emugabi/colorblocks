@@ -27,7 +27,7 @@
             android:layout_gravity="center|center_horizontal"
             android:gravity="center"
             android:padding="8dp"
-            android:text="Note Color"
+            android:text="Picker Color"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
     </RelativeLayout>
