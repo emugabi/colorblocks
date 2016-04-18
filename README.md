@@ -3,6 +3,9 @@ An android app that dynamically changes the activity contentview background via 
 The toolbar's background color changes too.
 
 ## Dependencies
-com.sothree.slidinguppanel:library:3.2.0
+Android Support Libraries
+Android Sliding Up Panel - https://github.com/umano/AndroidSlidingUpPanel
 
+
+## Sample
 ![Color Picker Action](samples/sample.gif?raw=true "Color Picker")
